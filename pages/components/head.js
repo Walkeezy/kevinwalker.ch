@@ -14,3 +14,5 @@ export const Head = ({ children, title }) => (
     </NextHead>
   </React.Fragment>
 )
+
+export default Head
