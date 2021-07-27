@@ -23,4 +23,21 @@
 
 .description {
   font-size: 1.5rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.contact {
+  font-size: 1rem;
+}
+
+.contact a:link,
+.contact a:visited {
+  text-decoration: underline;
+  transition: opacity 200ms ease-out;
+  margin: 0.5rem;
+}
+
+.contact a:hover,
+.contact a:active {
+  opacity: 0.666;
 }

@@ -4,9 +4,9 @@ body {
   margin: 0;
   font-family: 'Karla', sans-serif;
   color: #ffffff;
-  background: #134e5e;
-  background: -webkit-linear-gradient(200deg, #71b280, #134e5e);
-  background: linear-gradient(200deg, #71b280, #134e5e);
+  background: #362760;
+  background: -webkit-linear-gradient(45deg, #362760, #5216a3);
+  background: linear-gradient(45deg, #362760, #5216a3);
 }
 
 a {
