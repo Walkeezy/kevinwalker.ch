@@ -17,8 +17,15 @@
 }
 
 .title {
+  font-weight: 600;
   font-size: 4rem;
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
 }
 
 .description {
