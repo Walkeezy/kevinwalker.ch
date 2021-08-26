@@ -5,8 +5,21 @@ body {
   font-family: 'Karla', sans-serif;
   color: #ffffff;
   background: #362760;
-  background: -webkit-linear-gradient(45deg, #362760, #5216a3);
-  background: linear-gradient(45deg, #362760, #5216a3);
+  background: linear-gradient(45deg, #362760, #8016a3, #5216a3);
+  background-size: 400% 400%;
+  animation: gradient 13s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 a {
