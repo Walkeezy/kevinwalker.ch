@@ -8,7 +8,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Kevin Walker</h1>
-        <p className={styles.description}>Frontend engineer</p>
+        <p className={styles.description}>
+          Frontend engineer, working at{' '}
+          <a href="https://smartive.ch" target="_blank" rel="noopener noreferrer">
+            smartive.ch
+          </a>
+        </p>
         <div className={styles.contact}>
           <a href="mailto:mail@kevinwalker.ch" target="_blank" rel="noopener noreferrer">
             mail@kevinwalker.ch

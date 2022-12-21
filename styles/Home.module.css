@@ -33,6 +33,16 @@
   margin: 1rem 0 1.5rem;
 }
 
+.description a:link,
+.description a:visited {
+  transition: opacity 200ms ease-out;
+}
+
+.description a:hover,
+.description a:active {
+  opacity: 0.666;
+}
+
 .contact {
   font-size: 1rem;
 }
