@@ -8,8 +8,11 @@ export default function HochzeitPage() {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const password = event.currentTarget.querySelector('input')?.value;
-    if (password && password === process.env.PASSWORD) {
-      redirect(process.env.PHOTOALBUM_URL ?? '');
+    if (password && password === process.env.NEXT_PUBLIC_PASSWORD) {
+      redirect(process.env.NEXT_PUBLIC_PHOTOALBUM_URL ?? '');
+    } else if (password) {
+      // eslint-disable-next-line no-alert
+      alert('Das Passwort ist falsch. Bitte versuche es erneut.');
     }
   };
 
