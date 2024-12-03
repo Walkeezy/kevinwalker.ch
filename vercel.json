@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/Hochzeit", "destination": "/hochzeit", "permanent": true },
+    { "source": "/HOCHZEIT", "destination": "/hochzeit", "permanent": true }
+  ]
+}
